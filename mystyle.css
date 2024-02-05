@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    margin: 30px;
+    background-size: cover;
+    padding: 50px;
+    background-color: black;
+    border: 5px white double;
+    border-radius: 30px;
+    background-image: url("https://www.hdwallpapers.in/download/black_lines_stripes_dark_background_hd_dark-1920x1080.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    color: white;
+}
+.about{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    transition: transform 2s;
+}
+.about:hover{
+    translate: 20px 0px;
+    border-radius: 40px;
+}
+.container{
+    width: 50%;
+}
+.pics{
+    width: 50%;
+}
+.content2{
+    position: relative;
+    top: 100px;
+}
+a{
+    padding: 10px;
+    color: blanchedalmond;
+}
